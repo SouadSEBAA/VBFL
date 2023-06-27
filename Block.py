@@ -18,6 +18,7 @@ class Block:
 		# the hash of the current block, calculated by compute_hash
 		self._pow_proof = pow_proof
 		self._signature = signature
+		self._global_parameters = None
 
 	# compute_hash() also used to return value for block verification
 	# if False by default, used for pow and verification, in which pow_proof has to be None, because at this moment -
@@ -81,6 +82,16 @@ class Block:
 	def return_signature(self):
 		return self._signature
 
+	def set_delegates_signatures(self, signatures):
+		# signed by mined_by node
+		self._delegates_signatures = signatures
+
+	def set_global_parameters(self, global_params):
+		self._global_parameters = global_params
+
+	def return_global_parameters(self):
+		return self._global_parameters
+
 	def set_mining_rewards(self, mining_rewards):
 		self._mining_rewards = mining_rewards
 
@@ -89,6 +100,15 @@ class Block:
 	
 	def return_transactions(self):
 		return self._transactions
+	
+	def return_local_updates(self):
+		local_update_params_potentially_to_be_used = []
+		for worker_transaction in self.return_transactions()['valid_validator_sig_transacitons']:
+			if worker_transaction['local_updates_params']:
+				# could be None
+				local_update_params_potentially_to_be_used.append((worker_transaction['worker_device_idx'], worker_transaction['local_updates_params']))
+		return local_update_params_potentially_to_be_used
+
 
 	# a temporary workaround to free GPU mem by delete txs stored in the blocks. Not good when need to resync chain
 	def free_tx(self):
