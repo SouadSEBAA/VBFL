@@ -384,7 +384,7 @@ if __name__=="__main__":
 		
 		''' workers, validators and miners take turns to perform jobs '''
 
-		print(''' Step 1 - workers assign associated miner and validator (and do local updates, but it is implemented in code block of step 2) \n''')
+		print('''\n Step 1 - workers assign associated miner and validator (and do local updates, but it is implemented in code block of step 2) \n''')
 		for worker_iter, worker in enumerate(workers_this_round):
 			# worker = workers_this_round[worker_iter]
 			# resync chain(block could be dropped due to fork from last round)
@@ -407,7 +407,7 @@ if __name__=="__main__":
 				else:
 					print(f"Cannot find a qualified validator in {worker.return_idx()} peer list.")
 		
-		print(''' Step 2 - validators accept local updates and broadcast to other validators in their respective peer lists (workers local_updates() are called in this step.\n''')
+		print('''\n Step 2 - validators accept local updates and broadcast to other validators in their respective peer lists (workers local_updates() are called in this step.\n''')
 		for validator_iter, validator in enumerate(validators_this_round):
 			# validator = validators_this_round[validator_iter]
 			# resync chain
@@ -521,7 +521,7 @@ if __name__=="__main__":
 				print("No transactions have been received by this validator, probably due to workers and/or validators offline or timeout while doing local updates or transmitting updates, or all workers are in validator's black list.")
 
 
-		print(''' Step 2.5 - with the broadcasted workers transactions, validators decide the final transaction arrival order \n''')
+		print('''\n Step 2.5 - with the broadcasted workers transactions, validators decide the final transaction arrival order \n''')
 		for validator_iter, validator in enumerate(validators_this_round):
 			# validator = validators_this_round[validator_iter]
 			accepted_broadcasted_validator_transactions = validator.return_accepted_broadcasted_worker_transactions()
@@ -544,7 +544,7 @@ if __name__=="__main__":
 			print(f"{validator.return_idx()} - validator {validator_iter+1}/{len(validators_this_round)} done calculating the ordered final transactions arrival order. Total {len(final_transactions_arrival_queue)} accepted transactions.")
 
 
-		print(''' Step 3 - validators do cross-validation (validate local updates from workers) \n''')
+		print('''\n Step 3 - validators do cross-validation (validate local updates from workers) \n''')
 		for validator_iter, validator in enumerate(validators_this_round):
 			# validator = validators_this_round[validator_iter]
 			final_transactions_arrival_queue = validator.return_final_transactions_validating_queue()
@@ -572,9 +572,9 @@ if __name__=="__main__":
 				print(f"{validator.return_idx()} - validator {validator_iter+1}/{len(validators_this_round)} did not receive any transaction from worker or validator in this round.")
 		
 		if mining_consensus == 'PoA':
-			print(''' Step 4 - validators broadcast calculated accuracy gains to other validators''')
+			print('''\n Step 4 - validators broadcast calculated accuracy gains to other validators''')
 			for broadcasting_validator_iter, broadcasting_validator in enumerate(validators_this_round):
-				print(f"{broadcasting_validator.return_idx()} - validator {broadcasting_validator_iter+1}/{len(validators_this_round)} is broadcasting its calculated acc_gain (via transactions)...")
+				print(f"{broadcasting_validator.return_idx()} - validator {broadcasting_validator_iter+1}/{len(validators_this_round)} is broadcasting its calculated acc gain (via transactions)...")
 				post_validation_transactions_by_validator = broadcasting_validator.return_post_validation_transactions_queue()
 				for _, _, unverified_transaction in post_validation_transactions_by_validator:
 					if validator.online_switcher():
@@ -585,9 +585,9 @@ if __name__=="__main__":
 					# 			validator.add_received_post_validation_transaction(unconfirmed_transaction)
 					# 			print(f"validator {validator.return_idx()} has received {unconfirmed_transaction_iter}/{len(post_validation_transactions_by_validator)} post-validation transaction from validator {broadcasting_validator.return_idx()}")
 
-			print(''' Step 5 - validators verify transactions received from other validators''')
+			print('''\n Step 5 - validators verify transactions received from other validators''')
 			for validator_iter, validator in enumerate(validators_this_round):
-				print(f"{broadcasting_validator.return_idx()} - validator {broadcasting_validator_iter+1}/{len(validators_this_round)} is verifying validator transactions)...")
+				print(f"{broadcasting_validator.return_idx()} - validator {broadcasting_validator_iter+1}/{len(validators_this_round)} is verifying received validator transactions...")
 				received_post_validation_transactions = validator.return_received_post_validation_transactions()
 				for unverified_transaction_iter, unverified_transaction in enumerate(received_post_validation_transactions):
 					verification_time, is_validator_sig_valid = validator.verify_validator_transaction(unverified_transaction)
@@ -595,39 +595,42 @@ if __name__=="__main__":
 						validator.add_post_validation_transaction_to_queue((-1, -1, unverified_transaction))
 						print(f"validator {validator.return_idx()} has verified {unverified_transaction_iter+1}/{len(received_post_validation_transactions)} post-validation transaction from validator {validator.return_idx()}")
 
-			print(''' Step 6 - aggregate accuracy gains calculated by all validators for each worker''')
+			print('''\n Step 6 - aggregate accuracy gains calculated by all validators for each worker''')
 			for validator in validators_this_round:
 				validator.aggregate_accuracy_gains()
-				print(f"validator {validator.return_idx()} has aggregated accuracy gains")
+				print(f"validator {validator.return_idx()} has aggregated accuracy gains from all the received accuracy gains")
 			
-			print(''' Step 7 - begin consensus''')
+			print('''\n Step 7 - begin consensus''')
 			finished_consensus, consensus_rounds = False, 0
 			already_leveraged_as_speakers = set()
 			while not finished_consensus:
-				print(''' Step 7.1 - choose speaker among delegates (validators)''')
+				print('''\n Step 7.1 - choose speaker among delegates (validators)''')
 				# choose randomly a speaker among delegates (validators)
 				if len(already_leveraged_as_speakers) == len(validators_this_round):
-					print(f"No validators remaining to choose from for speaker")
+					print(f"No validators remaining to choose from for speaker role")
 					break
 					# sys.exit(1)
-				validator_chosen_as_speaker = random.choice(validators_this_round)
+				validator_chosen_as_speaker = random.choice(list(set(validators_this_round) - set(already_leveraged_as_speakers)))
 				if validator_chosen_as_speaker not in already_leveraged_as_speakers:
 					validator_chosen_as_speaker.leverage_as_speaker()
 					speaker = validator_chosen_as_speaker
 					already_leveraged_as_speakers.add(speaker)
 					delegates = []
 					for validator in validators_this_round:
-						delegates.append(validator) if not validator.speaker else None
+						# delegates.append(validator) if not validator.speaker else None
+						print(f"{validator.return_idx()} is speaker: {validator.speaker}")
+						delegates.append(validator) if not validator.return_idx() == speaker.return_idx() else None
 						validator.delegate_clear_unordered_propagated_block_processing_queue()
 					print(f"validator {speaker.return_idx()} has been chosen as speaker for the consensus round {consensus_rounds}")
 				else:
 					continue
-				print(''' Step 7.2 - build candidate block''')
+				print('''\n Step 7.2 - build candidate block''')
 				final_transactions_arrival_queue = speaker.return_post_validation_transactions_queue()
 				valid_validator_sig_candidate_transacitons = []
 				invalid_validator_sig_candidate_transacitons = []
 				begin_mining_time = 0
 				new_begin_mining_time = begin_mining_time
+				verified_block = None
 				if final_transactions_arrival_queue:
 					# print(f"{speaker.return_idx()} - speaker is verifying received validator transactions...")
 					time_limit = speaker.return_miner_acception_wait_time()
@@ -642,7 +645,7 @@ if __name__=="__main__":
 									break
 
 							# verify validator signature of this transaction
-							# verification_time, is_validator_sig_valid = miner.verify_validator_transaction(unconfirmmed_transaction)
+							# verification_time, is_validator_sig_valid = speaker.verify_validator_transaction(validator_transaction)
 							# if verification_time:
 								# if is_validator_sig_valid:
 							validator_info_this_tx = {
@@ -701,7 +704,7 @@ if __name__=="__main__":
 						begin_mining_time = new_begin_mining_time if new_begin_mining_time > begin_mining_time else begin_mining_time
 					transactions_to_record_in_block = {}
 					transactions_to_record_in_block['valid_validator_sig_transacitons'] = valid_validator_sig_candidate_transacitons
-					# transactions_to_record_in_block['invalid_validator_sig_transacitons'] = invalid_validator_sig_candidate_transacitons
+					transactions_to_record_in_block['invalid_validator_sig_transacitons'] = invalid_validator_sig_candidate_transacitons
 					# put transactions into candidate block and begin mining
 					# block index starts from 1
 					start_time_point = time.time()
@@ -744,8 +747,9 @@ if __name__=="__main__":
 						print(f"Unfortunately, {speaker.return_idx()} - speaker goes offline after, if successful, mining a block. This if-successful-mined block is not propagated.")
 				else:
 					print(f"{speaker.return_idx()} - speaker did not receive any transaction from validator or miner in this round.")
+					continue
 
-				print(''' Step 7.3 - propose it to delegates''')
+				print('''\n Step 7.3 - propose it to delegates''')
 				speaker.speaker_propagated_the_block(mined_block)
 				
 				# speaker broadcasts the new block if 2/3 of delegates have signed it
@@ -814,7 +818,7 @@ if __name__=="__main__":
 				print("No forking event happened.")
 				
 
-			print(''' Step 8 last step - process the added block - 1.collect usable updated params\n 2.malicious nodes identification\n 3.update global model locally\n This code block is skipped if no valid block was generated in this round''')
+			print('''\n Step 8 last step - process the added block - 1.collect usable updated params\n 2.malicious nodes identification\n 3.update global model locally\n This code block is skipped if no valid block was generated in this round''')
 			all_devices_round_ends_time = []
 			for device in devices_list:
 				if device.return_the_added_block() and device.online_switcher():
@@ -835,7 +839,7 @@ if __name__=="__main__":
 
 
 		else:
-			print(''' Step 4 - validators send post validation transactions to associated miner and miner broadcasts these to other miners in their respecitve peer lists\n''')
+			print(''' Step 4 - validators send post validation transactions to associated miner and miner broadcasts these to other miners in their respecitve peer lists''')
 			for miner_iter, miner in enumerate(miners_this_round):
 				# miner = miners_this_round[miner_iter]
 				# resync chain
@@ -865,7 +869,7 @@ if __name__=="__main__":
 				miner.set_unordered_arrival_time_accepted_validator_transactions(validator_transactions_arrival_queue)
 				miner.miner_broadcast_validator_transactions()
 
-			print(''' Step 4.5 - with the broadcasted validator transactions, miners decide the final transaction arrival order\n ''')
+			print(''' Step 4.5 - with the broadcasted validator transactions, miners decide the final transaction arrival order ''')
 			for miner_iter in range(len(miners_this_round)):
 				miner = miners_this_round[miner_iter]
 				accepted_broadcasted_validator_transactions = miner.return_accepted_broadcasted_validator_transactions()
@@ -887,7 +891,7 @@ if __name__=="__main__":
 				miner.set_candidate_transactions_for_final_mining_queue(final_transactions_arrival_queue)
 				print(f"{miner.return_idx()} - miner {miner_iter+1}/{len(miners_this_round)} done calculating the ordered final transactions arrival order. Total {len(final_transactions_arrival_queue)} accepted transactions.")
 			
-			print(''' Step 5 - miners do self and cross-verification (verify validators' signature) by the order of transaction arrival time and record the transactions in the candidate block according to the limit size. Also mine and propagate the block.\n''')
+			print(''' Step 5 - miners do self and cross-verification (verify validators' signature) by the order of transaction arrival time and record the transactions in the candidate block according to the limit size. Also mine and propagate the block.''')
 			for miner_iter in range(len(miners_this_round)):
 				miner = miners_this_round[miner_iter]
 				final_transactions_arrival_queue = miner.return_final_candidate_transactions_mining_queue()
