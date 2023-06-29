@@ -56,7 +56,7 @@ for log_file in all_rounds_log_files:
 device_accuracies_across_rounds = device_accuracies_across_rounds[:draw_comm_rounds]
 
 # draw graphs over all available comm rounds
-plt.plot(range(draw_comm_rounds), device_accuracies_across_rounds, label=f'VBFL for all {total_devices} devices', color='orange')
+plt.plot(range(draw_comm_rounds), device_accuracies_across_rounds, label=f'Global model accuracy for {chosen_device_idx}', color='orange')
 
 if device_accuracies_across_rounds:
 	annotating_points = 1 #5
@@ -73,5 +73,5 @@ plt.xlabel('Communication Round')
 plt.ylabel('Accuracy')
 plt.title('Global Model Accuracy')
 # plt.show()
-plt.savefig(f'plottings_logs/{log_folder.split("/")[1]}_global_model_accuracy_of_random_device.pdf')
+plt.savefig(f'plottings_logs/{log_folder.split("/")[1]}_global_model_accuracy_of_{chosen_device_idx}.pdf')
 # print()
