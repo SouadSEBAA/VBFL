@@ -5,6 +5,7 @@ from os import listdir
 import sys
 
 log_folder = sys.argv[1]
+chosen_device_idx = f"device_{sys.argv[2]}"
 
 all_rounds_log_files = []
 for f in sorted(listdir(log_folder)):
@@ -44,7 +45,9 @@ for log_file in all_rounds_log_files:
 	log_whole_text = file.read() 
 	lines_list = log_whole_text.split("\n")
 	for line in lines_list:
-		if line.startswith('device_1'):
+		device_idx = line.split(":")[0].split(" ")[0]
+		# if line.startswith('device_1'):
+		if device_idx == chosen_device_idx:
 			accuracy = round(float(line.split(":")[-1]), 3)
 			device_accuracies_across_rounds.append(accuracy)
 			break
@@ -69,5 +72,6 @@ plt.legend(loc='center', bbox_to_anchor=(0.32,0.7))
 plt.xlabel('Communication Round')
 plt.ylabel('Accuracy')
 plt.title('Global Model Accuracy')
-plt.show()
-print()
+# plt.show()
+plt.savefig(f'plottings_logs/{log_folder.split("/")[1]}_global_model_accuracy_of_random_device.pdf')
+# print()
