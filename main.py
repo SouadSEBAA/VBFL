@@ -824,7 +824,7 @@ if __name__=="__main__":
 				if device.return_the_added_block() and device.online_switcher():
 					# collect usable updated params, malicious nodes identification, do local udpates
 					processing_time = device.poa_process_block(device.return_the_added_block(), log_files_folder_path, conn, conn_cursor)
-					device.other_tasks_at_the_end_of_comm_round(comm_round, log_files_folder_path)
+					# device.other_tasks_at_the_end_of_comm_round(comm_round, log_files_folder_path)
 					device.add_to_round_end_time(processing_time)
 					all_devices_round_ends_time.append(device.return_round_end_time())
 			
