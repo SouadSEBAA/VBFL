@@ -1,0 +1,12 @@
+-0.12059986591339111: validator device_17 B in round 8 evluating worker device_1, diff = v_acc:0.38309988379478455 - w_acc:0.26250001788139343 device_1_maliciousness: B
+-0.15119987726211548: validator device_17 B in round 8 evluating worker device_10, diff = v_acc:0.38309988379478455 - w_acc:0.23190000653266907 device_10_maliciousness: B
+-0.06269991397857666: validator device_17 B in round 8 evluating worker device_16, diff = v_acc:0.38309988379478455 - w_acc:0.3203999698162079 device_16_maliciousness: B
+-0.11429992318153381: validator device_17 B in round 8 evluating worker device_20, diff = v_acc:0.38309988379478455 - w_acc:0.26879996061325073 device_20_maliciousness: B
+-0.1735999584197998: validator device_17 B in round 8 evluating worker device_5, diff = v_acc:0.38309988379478455 - w_acc:0.20949992537498474 device_5_maliciousness: B
+-0.09099993109703064: validator device_17 B in round 8 evluating worker device_8, diff = v_acc:0.38309988379478455 - w_acc:0.2920999526977539 device_8_maliciousness: B
+-0.11449989676475525: validator device_17 B in round 8 evluating worker device_14, diff = v_acc:0.38309988379478455 - w_acc:0.2685999870300293 device_14_maliciousness: B
+0.07039999961853027: validator device_17 B in round 8 evluating worker device_13, diff = v_acc:0.38309988379478455 - w_acc:0.4534998834133148 device_13_maliciousness: B
+-0.10209992527961731: validator device_17 B in round 8 evluating worker device_12, diff = v_acc:0.38309988379478455 - w_acc:0.28099995851516724 device_12_maliciousness: B
+-0.15139994025230408: validator device_17 B in round 8 evluating worker device_18, diff = v_acc:0.38309988379478455 - w_acc:0.23169994354248047 device_18_maliciousness: B
+-0.11939981579780579: validator device_17 B in round 8 evluating worker device_9, diff = v_acc:0.38309988379478455 - w_acc:0.26370006799697876 device_9_maliciousness: B
+0.009700208902359009: validator device_17 B in round 8 evluating worker device_15, diff = v_acc:0.38309988379478455 - w_acc:0.39280009269714355 device_15_maliciousness: B
