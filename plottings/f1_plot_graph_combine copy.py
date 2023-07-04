@@ -10,7 +10,6 @@ chosen_device_idx = f"device_{sys.argv[2]}"
 all_rounds_log_files = []
 list_folders_comm = sorted([f for f in listdir(log_folder) if f.startswith('comm')], key=lambda x: int(x.split('.')[0].split('_')[-1]))
 for f in list_folders_comm:
-	print(f)
 	for file in listdir(f"{log_folder}/{f}"):
 		if file.startswith('accuracy'):
 			all_rounds_log_files.append(f"{f}/{file}")
@@ -50,8 +49,6 @@ for log_file in all_rounds_log_files:
 		# if line.startswith('device_1'):
 		if device_idx == chosen_device_idx:
 			accuracy = round(float(line.split(":")[-1]), 3)
-			if accuracy < 0.5:
-				print(log_file, device_idx, accuracy)
 			device_accuracies_across_rounds.append(accuracy)
 			break
 	file.close()
