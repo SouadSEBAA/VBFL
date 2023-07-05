@@ -1,0 +1,12 @@
+0.002700008451938629: validator device_13 B in round 25 evluating worker device_1, diff = v_acc:0.09839998930692673 - w_acc:0.10109999775886536 device_1_maliciousness: B
+0.00010000169277191162: validator device_13 B in round 25 evluating worker device_7, diff = v_acc:0.09839998930692673 - w_acc:0.09849999099969864 device_7_maliciousness: B
+0.0315999761223793: validator device_13 B in round 25 evluating worker device_2, diff = v_acc:0.09839998930692673 - w_acc:0.12999996542930603 device_2_maliciousness: B
+0.00010000169277191162: validator device_13 B in round 25 evluating worker device_11, diff = v_acc:0.09839998930692673 - w_acc:0.09849999099969864 device_11_maliciousness: B
+0.0024000033736228943: validator device_13 B in round 25 evluating worker device_5, diff = v_acc:0.09839998930692673 - w_acc:0.10079999268054962 device_5_maliciousness: M
+0.10629991441965103: validator device_13 B in round 25 evluating worker device_10, diff = v_acc:0.09839998930692673 - w_acc:0.20469990372657776 device_10_maliciousness: B
+0.08279999345541: validator device_13 B in round 25 evluating worker device_8, diff = v_acc:0.09839998930692673 - w_acc:0.18119998276233673 device_8_maliciousness: B
+0.10060001164674759: validator device_13 B in round 25 evluating worker device_17, diff = v_acc:0.09839998930692673 - w_acc:0.19900000095367432 device_17_maliciousness: B
+0.04989998787641525: validator device_13 B in round 25 evluating worker device_3, diff = v_acc:0.09839998930692673 - w_acc:0.14829997718334198 device_3_maliciousness: M
+0.015600018203258514: validator device_13 B in round 25 evluating worker device_6, diff = v_acc:0.09839998930692673 - w_acc:0.11400000751018524 device_6_maliciousness: M
+0.03150001913309097: validator device_13 B in round 25 evluating worker device_12, diff = v_acc:0.09839998930692673 - w_acc:0.1299000084400177 device_12_maliciousness: B
+-0.0012999773025512695: validator device_13 B in round 25 evluating worker device_9, diff = v_acc:0.09839998930692673 - w_acc:0.09710001200437546 device_9_maliciousness: B
