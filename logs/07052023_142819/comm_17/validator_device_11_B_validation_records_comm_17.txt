@@ -1,0 +1,12 @@
+-0.17890003323554993: validator device_11 B in round 17 evluating worker device_1, diff = v_acc:0.5454999804496765 - w_acc:0.3665999472141266 device_1_maliciousness: B
+-0.08670008182525635: validator device_11 B in round 17 evluating worker device_10, diff = v_acc:0.5454999804496765 - w_acc:0.45879989862442017 device_10_maliciousness: B
+-0.013500034809112549: validator device_11 B in round 17 evluating worker device_8, diff = v_acc:0.5454999804496765 - w_acc:0.531999945640564 device_8_maliciousness: B
+-0.04949992895126343: validator device_11 B in round 17 evluating worker device_15, diff = v_acc:0.5454999804496765 - w_acc:0.4960000514984131 device_15_maliciousness: B
+-0.09909999370574951: validator device_11 B in round 17 evluating worker device_3, diff = v_acc:0.5454999804496765 - w_acc:0.446399986743927 device_3_maliciousness: B
+-0.01549994945526123: validator device_11 B in round 17 evluating worker device_13, diff = v_acc:0.5454999804496765 - w_acc:0.5300000309944153 device_13_maliciousness: B
+-0.0690000057220459: validator device_11 B in round 17 evluating worker device_6, diff = v_acc:0.5454999804496765 - w_acc:0.4764999747276306 device_6_maliciousness: B
+-0.09450003504753113: validator device_11 B in round 17 evluating worker device_12, diff = v_acc:0.5454999804496765 - w_acc:0.4509999454021454 device_12_maliciousness: B
+-0.15179991722106934: validator device_11 B in round 17 evluating worker device_5, diff = v_acc:0.5454999804496765 - w_acc:0.3937000632286072 device_5_maliciousness: B
+-0.054400086402893066: validator device_11 B in round 17 evluating worker device_17, diff = v_acc:0.5454999804496765 - w_acc:0.49109989404678345 device_17_maliciousness: B
+-0.040199995040893555: validator device_11 B in round 17 evluating worker device_2, diff = v_acc:0.5454999804496765 - w_acc:0.505299985408783 device_2_maliciousness: B
+0.041900038719177246: validator device_11 B in round 17 evluating worker device_4, diff = v_acc:0.5454999804496765 - w_acc:0.5874000191688538 device_4_maliciousness: B
