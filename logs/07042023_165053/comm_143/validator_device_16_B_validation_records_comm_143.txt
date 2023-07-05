@@ -1,0 +1,7 @@
+0.062499821186065674: validator device_16 B in round 143 evluating worker device_8, diff = v_acc:0.6047000288963318 - w_acc:0.6671998500823975 device_8_maliciousness: B
+0.17879986763000488: validator device_16 B in round 143 evluating worker device_17, diff = v_acc:0.6047000288963318 - w_acc:0.7834998965263367 device_17_maliciousness: B
+0.06649988889694214: validator device_16 B in round 143 evluating worker device_7, diff = v_acc:0.6047000288963318 - w_acc:0.6711999177932739 device_7_maliciousness: B
+0.0012999773025512695: validator device_16 B in round 143 evluating worker device_18, diff = v_acc:0.6047000288963318 - w_acc:0.6060000061988831 device_18_maliciousness: B
+0.24189996719360352: validator device_16 B in round 143 evluating worker device_13, diff = v_acc:0.6047000288963318 - w_acc:0.8465999960899353 device_13_maliciousness: B
+0.22850000858306885: validator device_16 B in round 143 evluating worker device_9, diff = v_acc:0.6047000288963318 - w_acc:0.8332000374794006 device_9_maliciousness: B
+0.24480020999908447: validator device_16 B in round 143 evluating worker device_10, diff = v_acc:0.6047000288963318 - w_acc:0.8495002388954163 device_10_maliciousness: B
