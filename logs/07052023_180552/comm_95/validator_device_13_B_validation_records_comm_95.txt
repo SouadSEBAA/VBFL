@@ -1,0 +1,12 @@
+-0.05980026721954346: validator device_13 B in round 95 evluating worker device_1, diff = w_acc:0.8244999647140503 - v_acc:0.8843002319335938, device_1_maliciousness: B
+-0.13000017404556274: validator device_13 B in round 95 evluating worker device_7, diff = w_acc:0.754300057888031 - v_acc:0.8843002319335938, device_7_maliciousness: B
+-0.09710037708282471: validator device_13 B in round 95 evluating worker device_15, diff = w_acc:0.787199854850769 - v_acc:0.8843002319335938, device_15_maliciousness: B
+-0.03910011053085327: validator device_13 B in round 95 evluating worker device_17, diff = w_acc:0.8452001214027405 - v_acc:0.8843002319335938, device_17_maliciousness: B
+-0.14420020580291748: validator device_13 B in round 95 evluating worker device_4, diff = w_acc:0.7401000261306763 - v_acc:0.8843002319335938, device_4_maliciousness: B
+-0.20500022172927856: validator device_13 B in round 95 evluating worker device_2, diff = w_acc:0.6793000102043152 - v_acc:0.8843002319335938, device_2_maliciousness: B
+-0.05540043115615845: validator device_13 B in round 95 evluating worker device_9, diff = w_acc:0.8288998007774353 - v_acc:0.8843002319335938, device_9_maliciousness: B
+-0.10090005397796631: validator device_13 B in round 95 evluating worker device_6, diff = w_acc:0.7834001779556274 - v_acc:0.8843002319335938, device_6_maliciousness: B
+-0.1418004035949707: validator device_13 B in round 95 evluating worker device_3, diff = w_acc:0.742499828338623 - v_acc:0.8843002319335938, device_3_maliciousness: B
+-0.06470024585723877: validator device_13 B in round 95 evluating worker device_10, diff = w_acc:0.819599986076355 - v_acc:0.8843002319335938, device_10_maliciousness: B
+-0.22810029983520508: validator device_13 B in round 95 evluating worker device_12, diff = w_acc:0.6561999320983887 - v_acc:0.8843002319335938, device_12_maliciousness: B
+-0.14620018005371094: validator device_13 B in round 95 evluating worker device_14, diff = w_acc:0.7381000518798828 - v_acc:0.8843002319335938, device_14_maliciousness: B
