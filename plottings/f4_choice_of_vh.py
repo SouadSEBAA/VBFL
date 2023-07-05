@@ -12,7 +12,7 @@ true_positive_good_nodes_inside_correct = sys.argv[2]
 malious_nodes_inside_slipped = {}
 good_nodes_inside_correct = {}
 
-draw_comm_rounds = 10
+# draw_comm_rounds = 10
 plt.figure(dpi=250)
 
 file = open(false_positive_malious_nodes_inside_slipped,"r") 
@@ -44,7 +44,6 @@ for line in lines_list:
 			good_nodes_inside_correct[comm_round].append(acc_diff)
 
 for comm_round, malious_nodes_acc_diff in malious_nodes_inside_slipped.items():
-
 	for point in malious_nodes_acc_diff:
 		plt.scatter(comm_round, point, c='r')
 
@@ -52,8 +51,9 @@ for comm_round, good_nodes_acc_diff in good_nodes_inside_correct.items():
 	for point in good_nodes_acc_diff:
 		plt.scatter(comm_round, point, c='g')
 
-plt.axhline(y=0.08, linestyle='dashed', color='orange')
-plt.yticks([-0.2, -0.15, -0.1, -0.05, 0, 0.05, 0.08, 0.1, 0.15, 0.2], ["-0.20", "-0.15", "-0.10", "-0.05", "0.00", "0.05", "0.08", "0.10", "0.15", "0.20"])
+plt.axhline(y=0.09, linestyle='dashed', color='orange')
+# plt.yticks([-0.2, -0.15, -0.1, -0.05, 0, 0.05, 0.08, 0.1, 0.15, 0.2], ["-0.20", "-0.15", "-0.10", "-0.05", "0.00", "0.05", "0.08", "0.10", "0.15", "0.20"])
+plt.yticks([-0.2, -0.15, -0.1, -0.05, 0, 0.05, 0.08, 0.09, 0.1], ["-0.20", "-0.15", "-0.10", "-0.05", "0.00", "0.05", "0.08", "0.09", "0.10"])
 # plt.text(18, 0.08, r'$vh_{j}^{v}$=0.08', fontsize=15, va='bottom', ha='right')
 
 plt.xlabel('Communication Round')

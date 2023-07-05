@@ -1655,7 +1655,7 @@ class Device:
 				is_malicious_validator = "M" if self.is_malicious else "B"
 				with open(f"{log_files_folder_path_comm_round}/validator_{self.idx}_{is_malicious_validator}_validation_records_comm_{comm_round}.txt", "a") as file:
 					is_malicious_node = "M" if self.devices_dict[worker_transaction_device_idx].return_is_malicious() else "B"
-					file.write(f"{accuracy_by_worker_update_using_own_data - self.validator_local_accuracy}: validator {self.return_idx()} {is_malicious_validator} in round {comm_round} evluating worker {worker_transaction_device_idx}, diff = v_acc:{self.validator_local_accuracy} - w_acc:{accuracy_by_worker_update_using_own_data} {worker_transaction_device_idx}_maliciousness: {is_malicious_node}\n")
+					file.write(f"{accuracy_by_worker_update_using_own_data - self.validator_local_accuracy}: validator {self.return_idx()} {is_malicious_validator} in round {comm_round} evluating worker {worker_transaction_device_idx}, diff = w_acc:{accuracy_by_worker_update_using_own_data} - v_acc:{self.validator_local_accuracy}, {worker_transaction_device_idx}_maliciousness: {is_malicious_node}\n")
 				acc_gain = self.calculate_acc_gain(accuracy_by_worker_update_using_own_data)
 				transaction_to_validate['accuracy_gain'] = acc_gain
 				if acc_gain < self.validator_threshold * -1:
