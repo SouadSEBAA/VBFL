@@ -1,0 +1,12 @@
+0.0: validator device_10 B in round 84 evluating worker device_8, diff = w_acc:0.09799998998641968 - v_acc:0.09799998998641968, device_8_maliciousness: B
+-0.013700000941753387: validator device_10 B in round 84 evluating worker device_9, diff = w_acc:0.08429998904466629 - v_acc:0.09799998998641968, device_9_maliciousness: M
+0.002799995243549347: validator device_10 B in round 84 evluating worker device_2, diff = w_acc:0.10079998522996902 - v_acc:0.09799998998641968, device_2_maliciousness: B
+-0.008899994194507599: validator device_10 B in round 84 evluating worker device_14, diff = w_acc:0.08909999579191208 - v_acc:0.09799998998641968, device_14_maliciousness: B
+-0.002199999988079071: validator device_10 B in round 84 evluating worker device_16, diff = w_acc:0.0957999899983406 - v_acc:0.09799998998641968, device_16_maliciousness: B
+0.015500001609325409: validator device_10 B in round 84 evluating worker device_5, diff = w_acc:0.11349999159574509 - v_acc:0.09799998998641968, device_5_maliciousness: B
+0.021799974143505096: validator device_10 B in round 84 evluating worker device_1, diff = w_acc:0.11979996412992477 - v_acc:0.09799998998641968, device_1_maliciousness: M
+0.002799995243549347: validator device_10 B in round 84 evluating worker device_17, diff = w_acc:0.10079998522996902 - v_acc:0.09799998998641968, device_17_maliciousness: B
+0.0: validator device_10 B in round 84 evluating worker device_6, diff = w_acc:0.09799998998641968 - v_acc:0.09799998998641968, device_6_maliciousness: B
+0.005199998617172241: validator device_10 B in round 84 evluating worker device_11, diff = w_acc:0.10319998860359192 - v_acc:0.09799998998641968, device_11_maliciousness: B
+0.0029000192880630493: validator device_10 B in round 84 evluating worker device_3, diff = w_acc:0.10090000927448273 - v_acc:0.09799998998641968, device_3_maliciousness: B
+0.000599987804889679: validator device_10 B in round 84 evluating worker device_4, diff = w_acc:0.09859997779130936 - v_acc:0.09799998998641968, device_4_maliciousness: M

@@ -1,0 +1,12 @@
+-0.006099991500377655: validator device_3 B in round 91 evluating worker device_4, diff = w_acc:0.08310000598430634 - v_acc:0.08919999748468399, device_4_maliciousness: M
+0.00639999657869339: validator device_3 B in round 91 evluating worker device_16, diff = w_acc:0.09559999406337738 - v_acc:0.08919999748468399, device_16_maliciousness: B
+0.024299994111061096: validator device_3 B in round 91 evluating worker device_7, diff = w_acc:0.11349999159574509 - v_acc:0.08919999748468399, device_7_maliciousness: B
+0.008699990808963776: validator device_3 B in round 91 evluating worker device_1, diff = w_acc:0.09789998829364777 - v_acc:0.08919999748468399, device_1_maliciousness: M
+0.011699989438056946: validator device_3 B in round 91 evluating worker device_2, diff = w_acc:0.10089998692274094 - v_acc:0.08919999748468399, device_2_maliciousness: B
+0.011300019919872284: validator device_3 B in round 91 evluating worker device_9, diff = w_acc:0.10050001740455627 - v_acc:0.08919999748468399, device_9_maliciousness: M
+0.008799992501735687: validator device_3 B in round 91 evluating worker device_8, diff = w_acc:0.09799998998641968 - v_acc:0.08919999748468399, device_8_maliciousness: B
+0.011699989438056946: validator device_3 B in round 91 evluating worker device_17, diff = w_acc:0.10089998692274094 - v_acc:0.08919999748468399, device_17_maliciousness: B
+0.0: validator device_3 B in round 91 evluating worker device_14, diff = w_acc:0.08919999748468399 - v_acc:0.08919999748468399, device_14_maliciousness: B
+0.024299994111061096: validator device_3 B in round 91 evluating worker device_10, diff = w_acc:0.11349999159574509 - v_acc:0.08919999748468399, device_10_maliciousness: B
+0.024299994111061096: validator device_3 B in round 91 evluating worker device_12, diff = w_acc:0.11349999159574509 - v_acc:0.08919999748468399, device_12_maliciousness: B
+0.011800013482570648: validator device_3 B in round 91 evluating worker device_15, diff = w_acc:0.10100001096725464 - v_acc:0.08919999748468399, device_15_maliciousness: B

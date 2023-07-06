@@ -1,0 +1,12 @@
+-0.005899980664253235: validator device_12 B in round 63 evluating worker device_9, diff = w_acc:0.10760001093149185 - v_acc:0.11349999159574509, device_9_maliciousness: M
+-0.04359997808933258: validator device_12 B in round 63 evluating worker device_1, diff = w_acc:0.0699000135064125 - v_acc:0.11349999159574509, device_1_maliciousness: M
+-0.024299994111061096: validator device_12 B in round 63 evluating worker device_3, diff = w_acc:0.08919999748468399 - v_acc:0.11349999159574509, device_3_maliciousness: B
+-0.012700006365776062: validator device_12 B in round 63 evluating worker device_8, diff = w_acc:0.10079998522996902 - v_acc:0.11349999159574509, device_8_maliciousness: B
+-0.01759999990463257: validator device_12 B in round 63 evluating worker device_16, diff = w_acc:0.09589999169111252 - v_acc:0.11349999159574509, device_16_maliciousness: B
+-0.010300002992153168: validator device_12 B in round 63 evluating worker device_13, diff = w_acc:0.10319998860359192 - v_acc:0.11349999159574509, device_13_maliciousness: B
+-0.015999972820281982: validator device_12 B in round 63 evluating worker device_14, diff = w_acc:0.0975000187754631 - v_acc:0.11349999159574509, device_14_maliciousness: B
+-0.010500013828277588: validator device_12 B in round 63 evluating worker device_11, diff = w_acc:0.1029999777674675 - v_acc:0.11349999159574509, device_11_maliciousness: B
+-0.01759999990463257: validator device_12 B in round 63 evluating worker device_17, diff = w_acc:0.09589999169111252 - v_acc:0.11349999159574509, device_17_maliciousness: B
+-0.010699979960918427: validator device_12 B in round 63 evluating worker device_6, diff = w_acc:0.10280001163482666 - v_acc:0.11349999159574509, device_6_maliciousness: B
+-0.01259998232126236: validator device_12 B in round 63 evluating worker device_15, diff = w_acc:0.10090000927448273 - v_acc:0.11349999159574509, device_15_maliciousness: B
+-0.01260000467300415: validator device_12 B in round 63 evluating worker device_2, diff = w_acc:0.10089998692274094 - v_acc:0.11349999159574509, device_2_maliciousness: B
