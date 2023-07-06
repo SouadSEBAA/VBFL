@@ -1,0 +1,12 @@
+0.020799964666366577: validator device_1 B in round 7 evluating worker device_17, diff = w_acc:0.21049992740154266 - v_acc:0.1896999627351761, device_17_maliciousness: B
+-0.0028999894857406616: validator device_1 B in round 7 evluating worker device_15, diff = w_acc:0.18679997324943542 - v_acc:0.1896999627351761, device_15_maliciousness: B
+0.10030005872249603: validator device_1 B in round 7 evluating worker device_11, diff = w_acc:0.2900000214576721 - v_acc:0.1896999627351761, device_11_maliciousness: B
+-0.007100000977516174: validator device_1 B in round 7 evluating worker device_3, diff = w_acc:0.1825999617576599 - v_acc:0.1896999627351761, device_3_maliciousness: B
+0.010399982333183289: validator device_1 B in round 7 evluating worker device_7, diff = w_acc:0.20009994506835938 - v_acc:0.1896999627351761, device_7_maliciousness: B
+-0.06709998100996017: validator device_1 B in round 7 evluating worker device_5, diff = w_acc:0.12259998172521591 - v_acc:0.1896999627351761, device_5_maliciousness: M
+0.003500014543533325: validator device_1 B in round 7 evluating worker device_4, diff = w_acc:0.1931999772787094 - v_acc:0.1896999627351761, device_4_maliciousness: B
+0.06910006701946259: validator device_1 B in round 7 evluating worker device_10, diff = w_acc:0.25880002975463867 - v_acc:0.1896999627351761, device_10_maliciousness: B
+-0.08849996328353882: validator device_1 B in round 7 evluating worker device_8, diff = w_acc:0.10119999945163727 - v_acc:0.1896999627351761, device_8_maliciousness: B
+0.025199919939041138: validator device_1 B in round 7 evluating worker device_9, diff = w_acc:0.21489988267421722 - v_acc:0.1896999627351761, device_9_maliciousness: B
+-0.0923999473452568: validator device_1 B in round 7 evluating worker device_6, diff = w_acc:0.09730001538991928 - v_acc:0.1896999627351761, device_6_maliciousness: M
+-0.09139997512102127: validator device_1 B in round 7 evluating worker device_13, diff = w_acc:0.09829998761415482 - v_acc:0.1896999627351761, device_13_maliciousness: M
