@@ -1,0 +1,12 @@
+0.11489996314048767: validator device_11 B in round 2 evluating worker device_1, diff = v_acc:0.19759994745254517 - w_acc:0.31249991059303284 device_1_maliciousness: B
+0.1881999969482422: validator device_11 B in round 2 evluating worker device_19, diff = v_acc:0.19759994745254517 - w_acc:0.38579994440078735 device_19_maliciousness: B
+0.08110010623931885: validator device_11 B in round 2 evluating worker device_20, diff = v_acc:0.19759994745254517 - w_acc:0.278700053691864 device_20_maliciousness: B
+-0.0112999826669693: validator device_11 B in round 2 evluating worker device_3, diff = v_acc:0.19759994745254517 - w_acc:0.18629996478557587 device_3_maliciousness: B
+0.0008000284433364868: validator device_11 B in round 2 evluating worker device_16, diff = v_acc:0.19759994745254517 - w_acc:0.19839997589588165 device_16_maliciousness: B
+0.01570001244544983: validator device_11 B in round 2 evluating worker device_12, diff = v_acc:0.19759994745254517 - w_acc:0.213299959897995 device_12_maliciousness: B
+0.003399968147277832: validator device_11 B in round 2 evluating worker device_9, diff = v_acc:0.19759994745254517 - w_acc:0.200999915599823 device_9_maliciousness: B
+0.08940011262893677: validator device_11 B in round 2 evluating worker device_5, diff = v_acc:0.19759994745254517 - w_acc:0.28700006008148193 device_5_maliciousness: B
+0.0021999627351760864: validator device_11 B in round 2 evluating worker device_6, diff = v_acc:0.19759994745254517 - w_acc:0.19979991018772125 device_6_maliciousness: B
+0.10840001702308655: validator device_11 B in round 2 evluating worker device_8, diff = v_acc:0.19759994745254517 - w_acc:0.3059999644756317 device_8_maliciousness: B
+-0.0018999725580215454: validator device_11 B in round 2 evluating worker device_7, diff = v_acc:0.19759994745254517 - w_acc:0.19569997489452362 device_7_maliciousness: B
+0.03680001199245453: validator device_11 B in round 2 evluating worker device_17, diff = v_acc:0.19759994745254517 - w_acc:0.2343999594449997 device_17_maliciousness: B
