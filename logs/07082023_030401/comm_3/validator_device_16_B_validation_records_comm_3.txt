@@ -1,0 +1,12 @@
+-0.04429996758699417: validator device_16 B in round 3 evluating worker device_3, diff = w_acc:0.09930000454187393 - v_acc:0.1435999721288681, device_3_maliciousness: M
+-0.008200019598007202: validator device_16 B in round 3 evluating worker device_4, diff = w_acc:0.1353999525308609 - v_acc:0.1435999721288681, device_4_maliciousness: M
+0.16279999911785126: validator device_16 B in round 3 evluating worker device_15, diff = w_acc:0.30639997124671936 - v_acc:0.1435999721288681, device_15_maliciousness: B
+0.05240000784397125: validator device_16 B in round 3 evluating worker device_17, diff = w_acc:0.19599997997283936 - v_acc:0.1435999721288681, device_17_maliciousness: B
+-0.045599982142448425: validator device_16 B in round 3 evluating worker device_10, diff = w_acc:0.09799998998641968 - v_acc:0.1435999721288681, device_10_maliciousness: B
+0.04119998216629028: validator device_16 B in round 3 evluating worker device_9, diff = w_acc:0.1847999542951584 - v_acc:0.1435999721288681, device_9_maliciousness: B
+0.16940002143383026: validator device_16 B in round 3 evluating worker device_5, diff = w_acc:0.31299999356269836 - v_acc:0.1435999721288681, device_5_maliciousness: B
+0.14170007407665253: validator device_16 B in round 3 evluating worker device_2, diff = w_acc:0.28530004620552063 - v_acc:0.1435999721288681, device_2_maliciousness: B
+0.14120008051395416: validator device_16 B in round 3 evluating worker device_7, diff = w_acc:0.28480005264282227 - v_acc:0.1435999721288681, device_7_maliciousness: B
+0.042799919843673706: validator device_16 B in round 3 evluating worker device_13, diff = w_acc:0.1863998919725418 - v_acc:0.1435999721288681, device_13_maliciousness: B
+0.14970003068447113: validator device_16 B in round 3 evluating worker device_1, diff = w_acc:0.29330000281333923 - v_acc:0.1435999721288681, device_1_maliciousness: B
+-0.004299968481063843: validator device_16 B in round 3 evluating worker device_14, diff = w_acc:0.13930000364780426 - v_acc:0.1435999721288681, device_14_maliciousness: M

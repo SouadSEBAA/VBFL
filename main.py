@@ -111,7 +111,7 @@ if __name__=="__main__":
 	args = args.__dict__
 	
 	# detect CUDA
-	dev = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
+	dev = torch.device("cuda") if (args['gpu'] != '-1' and torch.cuda.is_available()) else torch.device("cpu")
 
 	# pre-define system variables
 	latest_round_num = 0
@@ -227,7 +227,7 @@ if __name__=="__main__":
 
 		# 7. assign GPU(s) if available to the net, otherwise CPU
 		# os.environ['CUDA_VISIBLE_DEVICES'] = args['gpu']
-		if torch.cuda.device_count() > 1:
+		if args['gpu'] != '-1' and torch.cuda.device_count() > 1:
 			net = torch.nn.DataParallel(net)
 		print(f"{torch.cuda.device_count()} GPUs are available to use!")
 		net = net.to(dev)
@@ -552,8 +552,8 @@ if __name__=="__main__":
 				# validator asynchronously validates on its own test set
 				# local_validation_time = 0 
 				if mining_consensus == 'PoA':
-					# local_validation_time = validator.delegate_validate_local_accuracy(args['optimizer'])
-					local_validation_time = validator.validator_update_model_by_one_epoch_and_validate_local_accuracy(args['optimizer'])
+					local_validation_time = validator.delegate_validate_local_accuracy(args['optimizer'])
+					# local_validation_time = validator.validator_update_model_by_one_epoch_and_validate_local_accuracy(args['optimizer'])
 				else:
 					local_validation_time = validator.validator_update_model_by_one_epoch_and_validate_local_accuracy(args['optimizer'])
 				print(f"{validator.return_idx()} - validator {validator_iter+1}/{len(validators_this_round)} is validating received worker transactions...")
