@@ -1,0 +1,12 @@
+-0.10759991407394409: validator device_2 B in round 55 evluating worker device_15, diff = w_acc:0.28300005197525024 - v_acc:0.39059996604919434, device_15_maliciousness: B
+-0.1877000331878662: validator device_2 B in round 55 evluating worker device_7, diff = w_acc:0.20289993286132812 - v_acc:0.39059996604919434, device_7_maliciousness: B
+-0.0955999493598938: validator device_2 B in round 55 evluating worker device_13, diff = w_acc:0.29500001668930054 - v_acc:0.39059996604919434, device_13_maliciousness: B
+-0.1785000115633011: validator device_2 B in round 55 evluating worker device_4, diff = w_acc:0.21209995448589325 - v_acc:0.39059996604919434, device_4_maliciousness: B
+-0.18580004572868347: validator device_2 B in round 55 evluating worker device_17, diff = w_acc:0.20479992032051086 - v_acc:0.39059996604919434, device_17_maliciousness: B
+-0.1099998950958252: validator device_2 B in round 55 evluating worker device_9, diff = w_acc:0.28060007095336914 - v_acc:0.39059996604919434, device_9_maliciousness: B
+-0.18950006365776062: validator device_2 B in round 55 evluating worker device_8, diff = w_acc:0.20109990239143372 - v_acc:0.39059996604919434, device_8_maliciousness: B
+-0.18590010702610016: validator device_2 B in round 55 evluating worker device_12, diff = w_acc:0.20469985902309418 - v_acc:0.39059996604919434, device_12_maliciousness: B
+-0.07910004258155823: validator device_2 B in round 55 evluating worker device_3, diff = w_acc:0.3114999234676361 - v_acc:0.39059996604919434, device_3_maliciousness: B
+-0.0970999002456665: validator device_2 B in round 55 evluating worker device_1, diff = w_acc:0.29350006580352783 - v_acc:0.39059996604919434, device_1_maliciousness: B
+-0.2905999720096588: validator device_2 B in round 55 evluating worker device_6, diff = w_acc:0.09999998658895493 - v_acc:0.39059996604919434, device_6_maliciousness: M
+-0.17520001530647278: validator device_2 B in round 55 evluating worker device_11, diff = w_acc:0.21539995074272156 - v_acc:0.39059996604919434, device_11_maliciousness: B
