@@ -1,0 +1,12 @@
+-0.15669995546340942: validator device_7 M in round 5 evluating worker device_10, diff = w_acc:0.2915000021457672 - v_acc:0.44819995760917664, device_10_maliciousness: B
+-0.16029992699623108: validator device_7 M in round 5 evluating worker device_4, diff = w_acc:0.28790003061294556 - v_acc:0.44819995760917664, device_4_maliciousness: B
+-0.20309993624687195: validator device_7 M in round 5 evluating worker device_17, diff = w_acc:0.2451000213623047 - v_acc:0.44819995760917664, device_17_maliciousness: B
+-0.23649999499320984: validator device_7 M in round 5 evluating worker device_14, diff = w_acc:0.2116999626159668 - v_acc:0.44819995760917664, device_14_maliciousness: B
+-0.10790002346038818: validator device_7 M in round 5 evluating worker device_11, diff = w_acc:0.34029993414878845 - v_acc:0.44819995760917664, device_11_maliciousness: B
+-0.23749999701976776: validator device_7 M in round 5 evluating worker device_6, diff = w_acc:0.21069996058940887 - v_acc:0.44819995760917664, device_6_maliciousness: B
+-0.1279999315738678: validator device_7 M in round 5 evluating worker device_3, diff = w_acc:0.32020002603530884 - v_acc:0.44819995760917664, device_3_maliciousness: B
+-0.23050007224082947: validator device_7 M in round 5 evluating worker device_8, diff = w_acc:0.21769988536834717 - v_acc:0.44819995760917664, device_8_maliciousness: B
+-0.2120000123977661: validator device_7 M in round 5 evluating worker device_15, diff = w_acc:0.23619994521141052 - v_acc:0.44819995760917664, device_15_maliciousness: B
+-0.07970002293586731: validator device_7 M in round 5 evluating worker device_2, diff = w_acc:0.3684999346733093 - v_acc:0.44819995760917664, device_2_maliciousness: B
+-0.15049991011619568: validator device_7 M in round 5 evluating worker device_1, diff = w_acc:0.29770004749298096 - v_acc:0.44819995760917664, device_1_maliciousness: B
+-0.36299991607666016: validator device_7 M in round 5 evluating worker device_13, diff = w_acc:0.08520003408193588 - v_acc:0.44819995760917664, device_13_maliciousness: M
