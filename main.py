@@ -552,8 +552,8 @@ if __name__=="__main__":
 				# validator asynchronously validates on its own test set
 				# local_validation_time = 0 
 				if mining_consensus == 'PoA':
-					local_validation_time = validator.delegate_validate_local_accuracy(args['optimizer'])
-					# local_validation_time = validator.validator_update_model_by_one_epoch_and_validate_local_accuracy(args['optimizer'])
+					# local_validation_time = validator.delegate_validate_local_accuracy(args['optimizer'])
+					local_validation_time = validator.validator_update_model_by_one_epoch_and_validate_local_accuracy(args['optimizer'])
 				else:
 					local_validation_time = validator.validator_update_model_by_one_epoch_and_validate_local_accuracy(args['optimizer'])
 				print(f"{validator.return_idx()} - validator {validator_iter+1}/{len(validators_this_round)} is validating received worker transactions...")
@@ -602,6 +602,7 @@ if __name__=="__main__":
 			
 			print('''\n Step 7 - begin consensus''')
 			finished_consensus, consensus_rounds = False, 0
+			forking_happened = False
 			already_leveraged_as_speakers = set()
 			while not finished_consensus:
 				print('''\n Step 7.1 - choose speaker among delegates (validators)''')
@@ -754,7 +755,7 @@ if __name__=="__main__":
 				
 				# speaker broadcasts the new block if 2/3 of delegates have signed it
 				# delegates add the block and request its associated devices to download this block
-				forking_happened = False
+				# forking_happened = False
 				# comm_round_block_gen_time regarded as the time point when the winning miner mines its block, calculated from the beginning of the round. If there is forking in PoW or rewards info out of sync in PoS, this time is the avg time point of all the appended time by any device
 				comm_round_block_gen_time = []
 				for delegate_iter, delegate in enumerate(delegates):
@@ -797,6 +798,7 @@ if __name__=="__main__":
 				speaker.speaker = False
 
 			# CHECK FOR FORKING
+			forking_happened = False
 			added_blocks_miner_set = set()
 			for device in devices_list:
 				the_added_block = device.return_the_added_block()

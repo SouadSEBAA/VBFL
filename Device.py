@@ -1658,7 +1658,8 @@ class Device:
 					file.write(f"{accuracy_by_worker_update_using_own_data - self.validator_local_accuracy}: validator {self.return_idx()} {is_malicious_validator} in round {comm_round} evluating worker {worker_transaction_device_idx}, diff = w_acc:{accuracy_by_worker_update_using_own_data} - v_acc:{self.validator_local_accuracy}, {worker_transaction_device_idx}_maliciousness: {is_malicious_node}\n")
 				acc_gain = self.calculate_acc_gain(accuracy_by_worker_update_using_own_data)
 				transaction_to_validate['accuracy_gain'] = acc_gain
-				if acc_gain < self.validator_threshold * -1:
+				# if acc_gain < self.validator_threshold * -1:
+				if acc_gain < self.validator_threshold :
 					transaction_to_validate['update_direction'] = False
 					print(f"NOTE: worker {worker_transaction_device_idx}'s updates is deemed as suspiciously malicious by validator {self.idx}")
 					# is it right?
