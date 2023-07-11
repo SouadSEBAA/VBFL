@@ -1,0 +1,12 @@
+0.19730007648468018: validator device_14 B in round 2 evluating worker device_6, diff = w_acc:0.2866000831127167 - v_acc:0.0892999991774559, device_6_maliciousness: B
+0.11279993504285812: validator device_14 B in round 2 evluating worker device_7, diff = w_acc:0.20209993422031403 - v_acc:0.0892999991774559, device_7_maliciousness: B
+0.11269993335008621: validator device_14 B in round 2 evluating worker device_16, diff = w_acc:0.20199993252754211 - v_acc:0.0892999991774559, device_16_maliciousness: B
+0.013500012457370758: validator device_14 B in round 2 evluating worker device_12, diff = w_acc:0.10280001163482666 - v_acc:0.0892999991774559, device_12_maliciousness: B
+0.1057000383734703: validator device_14 B in round 2 evluating worker device_5, diff = w_acc:0.1950000375509262 - v_acc:0.0892999991774559, device_5_maliciousness: B
+0.20410004258155823: validator device_14 B in round 2 evluating worker device_2, diff = w_acc:0.2934000492095947 - v_acc:0.0892999991774559, device_2_maliciousness: B
+0.05419997125864029: validator device_14 B in round 2 evluating worker device_17, diff = w_acc:0.1434999704360962 - v_acc:0.0892999991774559, device_17_maliciousness: M
+0.11329992860555649: validator device_14 B in round 2 evluating worker device_10, diff = w_acc:0.2025999277830124 - v_acc:0.0892999991774559, device_10_maliciousness: B
+0.12499990314245224: validator device_14 B in round 2 evluating worker device_8, diff = w_acc:0.21429990231990814 - v_acc:0.0892999991774559, device_8_maliciousness: B
+-0.01869998127222061: validator device_14 B in round 2 evluating worker device_9, diff = w_acc:0.07060001790523529 - v_acc:0.0892999991774559, device_9_maliciousness: M
+0.20460012555122375: validator device_14 B in round 2 evluating worker device_15, diff = w_acc:0.29390013217926025 - v_acc:0.0892999991774559, device_15_maliciousness: B
+-0.0020999759435653687: validator device_14 B in round 2 evluating worker device_1, diff = w_acc:0.08720002323389053 - v_acc:0.0892999991774559, device_1_maliciousness: M

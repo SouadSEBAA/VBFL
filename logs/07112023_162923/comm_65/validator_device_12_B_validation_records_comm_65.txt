@@ -1,0 +1,12 @@
+0.0006999671459197998: validator device_12 B in round 65 evluating worker device_3, diff = w_acc:0.09809998422861099 - v_acc:0.09740001708269119, device_3_maliciousness: B
+0.0: validator device_12 B in round 65 evluating worker device_2, diff = w_acc:0.09740001708269119 - v_acc:0.09740001708269119, device_2_maliciousness: B
+-0.00810001790523529: validator device_12 B in round 65 evluating worker device_10, diff = w_acc:0.0892999991774559 - v_acc:0.09740001708269119, device_10_maliciousness: B
+0.014199972152709961: validator device_12 B in round 65 evluating worker device_17, diff = w_acc:0.11159998923540115 - v_acc:0.09740001708269119, device_17_maliciousness: M
+0.0: validator device_12 B in round 65 evluating worker device_5, diff = w_acc:0.09740001708269119 - v_acc:0.09740001708269119, device_5_maliciousness: B
+9.997934103012085e-05: validator device_12 B in round 65 evluating worker device_9, diff = w_acc:0.09749999642372131 - v_acc:0.09740001708269119, device_9_maliciousness: M
+0.00089997798204422: validator device_12 B in round 65 evluating worker device_13, diff = w_acc:0.09829999506473541 - v_acc:0.09740001708269119, device_13_maliciousness: B
+-0.00810001790523529: validator device_12 B in round 65 evluating worker device_11, diff = w_acc:0.0892999991774559 - v_acc:0.09740001708269119, device_11_maliciousness: B
+0.0036999881267547607: validator device_12 B in round 65 evluating worker device_8, diff = w_acc:0.10110000520944595 - v_acc:0.09740001708269119, device_8_maliciousness: B
+-0.008200019598007202: validator device_12 B in round 65 evluating worker device_4, diff = w_acc:0.08919999748468399 - v_acc:0.09740001708269119, device_4_maliciousness: B
+0.00089997798204422: validator device_12 B in round 65 evluating worker device_6, diff = w_acc:0.09829999506473541 - v_acc:0.09740001708269119, device_6_maliciousness: B
+0.005799971520900726: validator device_12 B in round 65 evluating worker device_14, diff = w_acc:0.10319998860359192 - v_acc:0.09740001708269119, device_14_maliciousness: B
