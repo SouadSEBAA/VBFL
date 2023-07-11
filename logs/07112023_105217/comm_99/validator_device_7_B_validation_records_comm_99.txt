@@ -1,0 +1,12 @@
+0.00020001083612442017: validator device_7 B in round 99 evluating worker device_12, diff = w_acc:0.09829999506473541 - v_acc:0.09809998422861099, device_12_maliciousness: B
+0.0026000216603279114: validator device_7 B in round 99 evluating worker device_11, diff = w_acc:0.1007000058889389 - v_acc:0.09809998422861099, device_11_maliciousness: M
+0.00020001083612442017: validator device_7 B in round 99 evluating worker device_13, diff = w_acc:0.09829999506473541 - v_acc:0.09809998422861099, device_13_maliciousness: B
+0.015500009059906006: validator device_7 B in round 99 evluating worker device_2, diff = w_acc:0.113599993288517 - v_acc:0.09809998422861099, device_2_maliciousness: B
+0.004800021648406982: validator device_7 B in round 99 evluating worker device_10, diff = w_acc:0.10290000587701797 - v_acc:0.09809998422861099, device_10_maliciousness: B
+-0.002199992537498474: validator device_7 B in round 99 evluating worker device_16, diff = w_acc:0.09589999169111252 - v_acc:0.09809998422861099, device_16_maliciousness: B
+0.0029000043869018555: validator device_7 B in round 99 evluating worker device_4, diff = w_acc:0.10099998861551285 - v_acc:0.09809998422861099, device_4_maliciousness: B
+0.0029000267386436462: validator device_7 B in round 99 evluating worker device_17, diff = w_acc:0.10100001096725464 - v_acc:0.09809998422861099, device_17_maliciousness: B
+-0.00879998505115509: validator device_7 B in round 99 evluating worker device_6, diff = w_acc:0.0892999991774559 - v_acc:0.09809998422861099, device_6_maliciousness: B
+0.004800021648406982: validator device_7 B in round 99 evluating worker device_1, diff = w_acc:0.10290000587701797 - v_acc:0.09809998422861099, device_1_maliciousness: B
+-0.020699970424175262: validator device_7 B in round 99 evluating worker device_5, diff = w_acc:0.07740001380443573 - v_acc:0.09809998422861099, device_5_maliciousness: M
+0.0051000043749809265: validator device_7 B in round 99 evluating worker device_3, diff = w_acc:0.10319998860359192 - v_acc:0.09809998422861099, device_3_maliciousness: B

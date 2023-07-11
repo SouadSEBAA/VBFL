@@ -1,0 +1,12 @@
+-0.1531001478433609: validator device_7 B in round 11 evluating worker device_2, diff = w_acc:0.21219991147518158 - v_acc:0.3653000593185425, device_2_maliciousness: B
+-0.27320003509521484: validator device_7 B in round 11 evluating worker device_11, diff = w_acc:0.09210002422332764 - v_acc:0.3653000593185425, device_11_maliciousness: M
+-0.1820000857114792: validator device_7 B in round 11 evluating worker device_6, diff = w_acc:0.1832999736070633 - v_acc:0.3653000593185425, device_6_maliciousness: B
+-0.08340001106262207: validator device_7 B in round 11 evluating worker device_1, diff = w_acc:0.2819000482559204 - v_acc:0.3653000593185425, device_1_maliciousness: B
+-0.07690003514289856: validator device_7 B in round 11 evluating worker device_9, diff = w_acc:0.2884000241756439 - v_acc:0.3653000593185425, device_9_maliciousness: B
+-0.26430004835128784: validator device_7 B in round 11 evluating worker device_8, diff = w_acc:0.10100001096725464 - v_acc:0.3653000593185425, device_8_maliciousness: M
+-0.17050009965896606: validator device_7 B in round 11 evluating worker device_4, diff = w_acc:0.19479995965957642 - v_acc:0.3653000593185425, device_4_maliciousness: B
+-0.24490006268024445: validator device_7 B in round 11 evluating worker device_5, diff = w_acc:0.12039999663829803 - v_acc:0.3653000593185425, device_5_maliciousness: M
+-0.16740015149116516: validator device_7 B in round 11 evluating worker device_17, diff = w_acc:0.19789990782737732 - v_acc:0.3653000593185425, device_17_maliciousness: B
+-0.16770009696483612: validator device_7 B in round 11 evluating worker device_13, diff = w_acc:0.19759996235370636 - v_acc:0.3653000593185425, device_13_maliciousness: B
+-0.09020009636878967: validator device_7 B in round 11 evluating worker device_3, diff = w_acc:0.2750999629497528 - v_acc:0.3653000593185425, device_3_maliciousness: B
+-0.17570006847381592: validator device_7 B in round 11 evluating worker device_16, diff = w_acc:0.18959999084472656 - v_acc:0.3653000593185425, device_16_maliciousness: B
