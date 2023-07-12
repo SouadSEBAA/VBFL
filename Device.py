@@ -506,7 +506,8 @@ class Device:
 						local_epoch_seq = valid_validator_sig_worker_transaciton['local_total_accumulated_epochs_this_round']
 						positive_direction_validators = valid_validator_sig_worker_transaciton['positive_direction_validators']
 						negative_direction_validators = valid_validator_sig_worker_transaciton['negative_direction_validators']
-						if len(positive_direction_validators) >= len(negative_direction_validators):
+						# if len(positive_direction_validators) >= len(negative_direction_validators):
+						if True:
 							# worker transaction can be used
 							valid_transactions_records_by_worker[worker_device_idx]['positive_epochs'].add(local_epoch_seq)
 							valid_transactions_records_by_worker[worker_device_idx]['all_valid_epochs'].add(local_epoch_seq)
@@ -1005,7 +1006,7 @@ class Device:
 			return sum_accu / num
 
 
-	def global_update(self, local_update_params_potentially_to_be_used):
+	2def global_update(self, local_update_params_potentially_to_be_used):
 		# filter local_params
 		local_params_by_benign_workers = []
 		for (worker_device_idx, local_params) in local_update_params_potentially_to_be_used:
