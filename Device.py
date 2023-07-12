@@ -1046,8 +1046,9 @@ class Device:
 			else:
 				votes[worker_device_idx]['negative_votes'] += 1
 		for worker_device_idx in votes:
-			if not worker_device_idx in self.black_list \
-				and votes[worker_device_idx]['positive_votes'] > votes[worker_device_idx]['negative_votes']:
+			# if not worker_device_idx in self.black_list \
+				# and votes[worker_device_idx]['positive_votes'] > votes[worker_device_idx]['negative_votes']:
+			if not worker_device_idx in self.black_list:
 				# print(f"---------- including wroker {worker_device_idx} in global model")
 				local_updates_params = votes[worker_device_idx]['local_updates_params']
 				if not sum_parameters:
