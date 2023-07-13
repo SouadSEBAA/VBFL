@@ -1,0 +1,12 @@
+0.012900009751319885: validator device_11 B in round 30 evluating worker device_1, diff = w_acc:0.11390001326799393 - v_acc:0.10100000351667404, device_1_maliciousness: B
+-0.0028000101447105408: validator device_11 B in round 30 evluating worker device_3, diff = w_acc:0.0981999933719635 - v_acc:0.10100000351667404, device_3_maliciousness: B
+-0.0029000118374824524: validator device_11 B in round 30 evluating worker device_17, diff = w_acc:0.09809999167919159 - v_acc:0.10100000351667404, device_17_maliciousness: B
+-0.016500018537044525: validator device_11 B in round 30 evluating worker device_7, diff = w_acc:0.08449998497962952 - v_acc:0.10100000351667404, device_7_maliciousness: M
+0.012499995529651642: validator device_11 B in round 30 evluating worker device_10, diff = w_acc:0.11349999904632568 - v_acc:0.10100000351667404, device_10_maliciousness: B
+0.012499995529651642: validator device_11 B in round 30 evluating worker device_2, diff = w_acc:0.11349999904632568 - v_acc:0.10100000351667404, device_2_maliciousness: B
+-0.0029000192880630493: validator device_11 B in round 30 evluating worker device_12, diff = w_acc:0.09809998422861099 - v_acc:0.10100000351667404, device_12_maliciousness: B
+-0.011800013482570648: validator device_11 B in round 30 evluating worker device_16, diff = w_acc:0.0891999900341034 - v_acc:0.10100000351667404, device_16_maliciousness: B
+-0.005200013518333435: validator device_11 B in round 30 evluating worker device_6, diff = w_acc:0.0957999899983406 - v_acc:0.10100000351667404, device_6_maliciousness: B
+0.002199985086917877: validator device_11 B in round 30 evluating worker device_14, diff = w_acc:0.10319998860359192 - v_acc:0.10100000351667404, device_14_maliciousness: B
+0.0018000081181526184: validator device_11 B in round 30 evluating worker device_15, diff = w_acc:0.10280001163482666 - v_acc:0.10100000351667404, device_15_maliciousness: B
+-0.00020000338554382324: validator device_11 B in round 30 evluating worker device_8, diff = w_acc:0.10080000013113022 - v_acc:0.10100000351667404, device_8_maliciousness: M

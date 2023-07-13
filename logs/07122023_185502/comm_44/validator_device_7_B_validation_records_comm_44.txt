@@ -1,0 +1,12 @@
+-0.012500010430812836: validator device_7 B in round 44 evluating worker device_4, diff = w_acc:0.10089998692274094 - v_acc:0.11339999735355377, device_4_maliciousness: B
+-0.01530001312494278: validator device_7 B in round 44 evluating worker device_14, diff = w_acc:0.09809998422861099 - v_acc:0.11339999735355377, device_14_maliciousness: B
+0.018199995160102844: validator device_7 B in round 44 evluating worker device_1, diff = w_acc:0.13159999251365662 - v_acc:0.11339999735355377, device_1_maliciousness: M
+-0.007899977266788483: validator device_7 B in round 44 evluating worker device_9, diff = w_acc:0.10550002008676529 - v_acc:0.11339999735355377, device_9_maliciousness: M
+-0.012299992144107819: validator device_7 B in round 44 evluating worker device_8, diff = w_acc:0.10110000520944595 - v_acc:0.11339999735355377, device_8_maliciousness: B
+-0.026900015771389008: validator device_7 B in round 44 evluating worker device_16, diff = w_acc:0.08649998158216476 - v_acc:0.11339999735355377, device_16_maliciousness: M
+-0.010300017893314362: validator device_7 B in round 44 evluating worker device_13, diff = w_acc:0.10309997946023941 - v_acc:0.11339999735355377, device_13_maliciousness: B
+-0.017600007355213165: validator device_7 B in round 44 evluating worker device_12, diff = w_acc:0.0957999899983406 - v_acc:0.11339999735355377, device_12_maliciousness: B
+-0.02419999986886978: validator device_7 B in round 44 evluating worker device_5, diff = w_acc:0.08919999748468399 - v_acc:0.11339999735355377, device_5_maliciousness: B
+-0.015400007367134094: validator device_7 B in round 44 evluating worker device_17, diff = w_acc:0.09799998998641968 - v_acc:0.11339999735355377, device_17_maliciousness: B
+-0.012500010430812836: validator device_7 B in round 44 evluating worker device_2, diff = w_acc:0.10089998692274094 - v_acc:0.11339999735355377, device_2_maliciousness: B
+9.99942421913147e-05: validator device_7 B in round 44 evluating worker device_6, diff = w_acc:0.11349999159574509 - v_acc:0.11339999735355377, device_6_maliciousness: B

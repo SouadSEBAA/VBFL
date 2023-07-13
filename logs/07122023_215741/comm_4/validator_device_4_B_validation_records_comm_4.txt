@@ -1,0 +1,12 @@
+-0.15310002863407135: validator device_4 B in round 4 evluating worker device_7, diff = w_acc:0.12779997289180756 - v_acc:0.2809000015258789, device_7_maliciousness: M
+-0.08730006217956543: validator device_4 B in round 4 evluating worker device_17, diff = w_acc:0.19359993934631348 - v_acc:0.2809000015258789, device_17_maliciousness: B
+-0.09290005266666412: validator device_4 B in round 4 evluating worker device_16, diff = w_acc:0.18799994885921478 - v_acc:0.2809000015258789, device_16_maliciousness: B
+0.02869996428489685: validator device_4 B in round 4 evluating worker device_12, diff = w_acc:0.30959996581077576 - v_acc:0.2809000015258789, device_12_maliciousness: B
+-0.06640005111694336: validator device_4 B in round 4 evluating worker device_2, diff = w_acc:0.21449995040893555 - v_acc:0.2809000015258789, device_2_maliciousness: B
+-0.08510002493858337: validator device_4 B in round 4 evluating worker device_11, diff = w_acc:0.19579997658729553 - v_acc:0.2809000015258789, device_11_maliciousness: B
+-0.08110003173351288: validator device_4 B in round 4 evluating worker device_14, diff = w_acc:0.19979996979236603 - v_acc:0.2809000015258789, device_14_maliciousness: B
+-0.06990008056163788: validator device_4 B in round 4 evluating worker device_1, diff = w_acc:0.21099992096424103 - v_acc:0.2809000015258789, device_1_maliciousness: B
+-0.2093999981880188: validator device_4 B in round 4 evluating worker device_5, diff = w_acc:0.07150000333786011 - v_acc:0.2809000015258789, device_5_maliciousness: M
+-0.09300005435943604: validator device_4 B in round 4 evluating worker device_9, diff = w_acc:0.18789994716644287 - v_acc:0.2809000015258789, device_9_maliciousness: B
+-0.08960002660751343: validator device_4 B in round 4 evluating worker device_6, diff = w_acc:0.19129997491836548 - v_acc:0.2809000015258789, device_6_maliciousness: B
+-0.07800005376338959: validator device_4 B in round 4 evluating worker device_15, diff = w_acc:0.20289994776248932 - v_acc:0.2809000015258789, device_15_maliciousness: B
