@@ -1,0 +1,12 @@
+-0.09290005266666412: validator device_14 B in round 3 evluating worker device_9, diff = w_acc:0.19569997489452362 - v_acc:0.28860002756118774, device_9_maliciousness: B
+0.006800025701522827: validator device_14 B in round 3 evluating worker device_1, diff = w_acc:0.29540005326271057 - v_acc:0.28860002756118774, device_1_maliciousness: B
+-0.1673000156879425: validator device_14 B in round 3 evluating worker device_15, diff = w_acc:0.12130000442266464 - v_acc:0.28860002756118774, device_15_maliciousness: M
+-0.09560008347034454: validator device_14 B in round 3 evluating worker device_8, diff = w_acc:0.1929999440908432 - v_acc:0.28860002756118774, device_8_maliciousness: B
+-0.0895000696182251: validator device_14 B in round 3 evluating worker device_2, diff = w_acc:0.19909995794296265 - v_acc:0.28860002756118774, device_2_maliciousness: B
+-0.07960009574890137: validator device_14 B in round 3 evluating worker device_17, diff = w_acc:0.20899993181228638 - v_acc:0.28860002756118774, device_17_maliciousness: B
+-0.0033999979496002197: validator device_14 B in round 3 evluating worker device_4, diff = w_acc:0.2852000296115875 - v_acc:0.28860002756118774, device_4_maliciousness: B
+-0.20420002937316895: validator device_14 B in round 3 evluating worker device_12, diff = w_acc:0.0844000056385994 - v_acc:0.28860002756118774, device_12_maliciousness: M
+-0.09710007905960083: validator device_14 B in round 3 evluating worker device_6, diff = w_acc:0.19149994850158691 - v_acc:0.28860002756118774, device_6_maliciousness: B
+0.020499974489212036: validator device_14 B in round 3 evluating worker device_11, diff = w_acc:0.3091000020503998 - v_acc:0.28860002756118774, device_11_maliciousness: B
+-0.09960006177425385: validator device_14 B in round 3 evluating worker device_16, diff = w_acc:0.1889999657869339 - v_acc:0.28860002756118774, device_16_maliciousness: B
+0.01789999008178711: validator device_14 B in round 3 evluating worker device_3, diff = w_acc:0.30650001764297485 - v_acc:0.28860002756118774, device_3_maliciousness: B
